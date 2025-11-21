@@ -3,6 +3,8 @@ kind: AwsVpc
 metadata:
   name: awsvpc
   namespace: base
+  labels:
+    overrideNamespace: "true"
 spec:
   name: sample-customer-vpc
   namespace: base
